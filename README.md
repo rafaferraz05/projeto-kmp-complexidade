@@ -2,7 +2,7 @@
 
 Este projeto implementa o algoritmo Knuth-Morris-Pratt (KMP) em Python e Java, executa benchmarks com tres tamanhos de entrada e tres cenarios experimentais, salva os resultados em CSV, calcula media e desvio-padrao e gera graficos comparativos.
 
-Os resultados numericos nao sao inventados. Os CSVs deste repositorio comecam apenas com cabecalhos; execute os benchmarks no seu computador para preencher os dados reais.
+ Os CSVs deste repositorio contem os resultados reais obtidos nos benchmarks com 30 execucoes por combinacao.
 
 ## Estrutura
 
@@ -133,17 +133,4 @@ java -cp .\java BenchmarkKMP 3
 python .\python\benchmark.py --somente-resumo --graficos
 ```
 
-## Commits sugeridos
 
-Execute estes commits depois de revisar os arquivos:
-
-```powershell
-git add README.md docs relatorio slides
-git commit -m "docs: adiciona documentacao do projeto KMP"
-
-git add python java
-git commit -m "feat: implementa KMP e benchmarks em Python e Java"
-
-git add resultados graficos entradas
-git commit -m "chore: adiciona estrutura de resultados e artefatos experimentais"
-```

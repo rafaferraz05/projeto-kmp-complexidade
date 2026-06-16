@@ -1,0 +1,20 @@
+# Arquivos gerados por compilacao Java
+*.class
+
+# Pastas temporarias do ambiente Codex
+work/
+outputs/
+
+# Caches Python
+__pycache__/
+*.py[cod]
+
+# Ambientes virtuais locais
+.venv/
+venv/
+
+# Arquivos temporarios do sistema/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

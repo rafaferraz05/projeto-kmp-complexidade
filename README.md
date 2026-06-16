@@ -27,8 +27,6 @@ projeto-kmp-complexidade/
 │   └── escala_logaritmica.png
 ├── relatorio/
 │   └── relatorio.md
-├── slides/
-│   └── roteiro_apresentacao.md
 ├── docs/
 │   └── referencias.md
 └── entradas/
